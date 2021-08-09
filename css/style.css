@@ -95,6 +95,18 @@ div.hero__quien-eres p {
 div.hero__quien-eres p span {
   color: rgba(255, 255, 255, 0.418);
 }
+div.contact {
+}
+div.contact input {
+  width: 170px;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  background: #372bc3;
+}
 div.img-hero {
 }
 div.img-hero img {
