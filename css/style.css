@@ -73,18 +73,18 @@ a {
   background: #5e52de;
   width: 100vw;
   height: 90vh;
-  padding: 0 10vw 9vw 10vw;
+  padding: 0 18vw 9vw 10vw;
   filter: blur(100%);
 }
 .grid-hero {
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 40% 60%;
 }
 div.hero__quien-eres {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 div.hero__quien-eres p {
   font-size: 60px;
@@ -108,6 +108,8 @@ div.contact input {
   background: #372bc3;
 }
 div.img-hero {
+  display: flex;
+  justify-content: flex-end;
 }
 div.img-hero img {
   width: 30vw;
