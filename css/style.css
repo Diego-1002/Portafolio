@@ -73,7 +73,7 @@ a {
   background: #5e52de;
   width: 100vw;
   height: 90vh;
-  padding: 0 18vw 9vw 10vw;
+  padding: 0 10vw 8vh 10vw;
   filter: blur(100%);
 }
 .grid-hero {
