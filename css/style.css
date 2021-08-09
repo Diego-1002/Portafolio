@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: tw-cen-mt-6;
+}
+html {
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: tw-cen-mt-6;
+  src: url(Fuentes/tw-cen-mt-6.ttf);
+}
+body {
+  overflow-x: hidden;
+}
+header {
+  background: #5e52de;
+}
+div.header-esferica {
+  background: rgb(107 96 226 / 71%);
+  width: 100%;
+  height: 7rem;
+  border-radius: 0 0 100% 100%;
+  position: relative;
+  box-shadow: 1px 1px 40px 0px black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul.header__links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+ul.header__links li {
+}
+ul.header__links li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  background: #5e4cd5;
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  transition: 0.2s;
+}
+ul.header__links li a:hover {
+  box-shadow: 0 0 8px 0 black;
+  font-size: 40px;
+  width: 180px;
+  height: 55px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.a__resalte {
+  width: 100px;
+  height: 25px;
+  background: #b0acd6;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+}
+.hero {
+  display: table-cell;
+  vertical-align: middle;
+  background: #5e52de;
+  width: 100vw;
+  height: 90vh;
+  padding: 0 10vw 9vw 10vw;
+  filter: blur(100%);
+}
+.grid-hero {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+div.hero__quien-eres {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+div.hero__quien-eres p {
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+}
+div.hero__quien-eres p span {
+  color: rgba(255, 255, 255, 0.418);
+}
+div.img-hero {
+}
+div.img-hero img {
+  width: 30vw;
+}
