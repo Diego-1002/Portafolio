@@ -122,7 +122,10 @@ div.contact a {
   background: #0d0941;
   justify-content: center;
   align-items: center;
+  box-shadow: inset -18px -12px 20px #22025a, inset 28px 25px 30px 0px #936bff,
+    -20px -5px 50px 0px black;
 }
+/*********Img-Hero*********/
 div.img-hero {
   display: flex;
   justify-content: center;
@@ -131,4 +134,21 @@ div.img-hero img {
   position: relative;
   bottom: 30px;
   width: 35vw;
+}
+/*********Experiencia-Web*********/
+.main-portafolio {
+  width: 100vw;
+  height: 100vh;
+  background: #40329a50;
+  padding: 50px 10% 0 10%;
+}
+div.experiencia-text {
+}
+div.main__experiencia-text p {
+  font-size: 60px;
+  font-family: tw-cen-mt-bold;
+  text-align: right;
+  height: 400px;
+  width: 564px;
+  margin-left: auto;
 }
