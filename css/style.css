@@ -144,9 +144,9 @@ div.img-hero img {
 /*********Experiencia-Web*********/
 main {
   width: 100vw;
-  height: 100vh;
+  height: 120vh;
   background: #40329a50;
-  padding: 30px 10% 0 10%;
+  padding: 50px 10% 0 10%;
 }
 div.experiencia-text {
 }
@@ -175,10 +175,10 @@ main div.main__contenedor-habilidades {
   display: flex;
 }
 .habilidad {
-  width: 130px;
-  height: 130px;
+  width: 110px;
+  height: 115px;
   margin-top: 20px;
-  background-size: 94px;
+  background-size: 70%;
   background-position-x: center;
   background-position-y: center;
   box-shadow: 5px 7px 13px black, inset 3px 5px 20px 0px #ffffffd1;
@@ -187,6 +187,11 @@ main div.main__contenedor-habilidades {
   margin-right: 20px;
   border-radius: 23px;
   cursor: pointer;
+}
+/* Proyectos-Hechos */
+div.proyectos-realizado {
+  width: 100%;
+  height: 100vh;
 }
 /* Footer */
 footer {
