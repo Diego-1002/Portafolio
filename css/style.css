@@ -1,8 +1,14 @@
+:root {
+  --fuente-normal: tw-cen-mt-6;
+  --fuente-gruesa: tw-cen-mt-bold;
+  --color-principal-oscuro: #0d0941;
+  --color-blanco: #ffffff;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: tw-cen-mt-6;
+  font-family: var(--fuente-normal);
 }
 html {
   scroll-behavior: smooth;
@@ -99,12 +105,12 @@ div.hero__quien-eres span {
   text-shadow: 0px 0px 20px black;
   font-size: 60px;
   font-weight: bold;
-  font-family: tw-cen-mt-bold;
+  font-family: var(--fuente-gruesa);
   text-align: center;
   color: #ffffff;
 }
 div.hero__quien-eres span {
-  font-family: tw-cen-mt-bold;
+  font-family: var(--fuente-gruesa);
   color: rgba(255, 255, 255, 0.418);
 }
 div.contact {
@@ -140,13 +146,13 @@ main {
   width: 100vw;
   height: 100vh;
   background: #40329a50;
-  padding: 50px 10% 0 10%;
+  padding: 30px 10% 0 10%;
 }
 div.experiencia-text {
 }
 div.main__experiencia-text p {
-  font-size: 60px;
-  font-family: tw-cen-mt-bold;
+  font-size: 55px;
+  font-family: var(--fuente-gruesa);
   text-align: right;
   width: 564px;
   margin-left: auto;
@@ -159,14 +165,43 @@ main div.main__contenedor-habilidades {
 .fila {
   width: 100%;
   height: 180px;
+  margin: 30px 0;
+}
+.fila p {
+  font-family: var(--fuente-gruesa);
+  font-size: 25px;
+}
+.habilidades {
+  display: flex;
 }
 .habilidad {
-  width: 120px;
-  height: 120px;
+  width: 130px;
+  height: 130px;
   margin-top: 20px;
-  background-size: 100px;
+  background-size: 94px;
   background-position-x: center;
   background-position-y: center;
-  box-shadow: 10px 14px 20px black, inset 4px 7px 32px 0px #ffffffd1;
+  box-shadow: 5px 7px 13px black, inset 3px 5px 20px 0px #ffffffd1;
   background-repeat: no-repeat;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 23px;
+  cursor: pointer;
+}
+/* Footer */
+footer {
+  background: var(--color-principal-oscuro);
+  width: 100%;
+  height: 100px;
+}
+footer div {
+  height: 80%;
+}
+footer p {
+  display: flex;
+  height: 10%;
+  text-align: center;
+  color: var(--color-blanco);
+  align-items: flex-end;
+  justify-content: center;
 }
