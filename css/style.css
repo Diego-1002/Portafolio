@@ -167,6 +167,6 @@ main div.main__contenedor-habilidades {
   background-size: 100px;
   background-position-x: center;
   background-position-y: center;
-  box-shadow: 0px 0px 20px black;
+  box-shadow: 10px 14px 20px black, inset 4px 7px 32px 0px #ffffffd1;
   background-repeat: no-repeat;
 }
