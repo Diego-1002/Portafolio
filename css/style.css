@@ -130,6 +130,19 @@ div.contact a {
   align-items: center;
   box-shadow: inset -18px -12px 20px #22025a, inset 28px 25px 30px 0px #936bff,
     -20px -5px 50px 0px black;
+  animation-name: contactar;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: cubic-bezier(0.47, 0.88, 0.31, 0.66);
+}
+@keyframes contactar {
+  0% {
+  }
+  100% {
+    width: 190px;
+    height: 50px;
+  }
 }
 /*********Img-Hero*********/
 div.img-hero {
@@ -226,6 +239,7 @@ footer {
   background: var(--color-principal-oscuro);
   width: 100%;
   height: 200px;
+  padding: 20px 0 0 0;
 }
 .footer__contenido {
   height: 80%;
@@ -239,7 +253,14 @@ footer {
   align-items: center;
   justify-content: center;
 }
-footer p {
+.footer__contenido p {
+  font-size: 25px;
+  text-align: center;
+  color: var(--color-blanco);
+  font-family: var(--fuente-gruesa);
+}
+footer div a {
+  display: flex;
   text-align: center;
   color: var(--color-blanco);
   align-items: flex-end;
@@ -264,6 +285,11 @@ footer p {
     font-size: 15px;
     width: 100px;
     height: 30px;
+  }
+  ul.header__links li a:hover {
+    width: 110px;
+    height: 35px;
+    font-size: 20px;
   }
   .hero {
     height: 88vh;
@@ -300,21 +326,26 @@ footer p {
     width: 100px;
     height: 100px;
   }
+  .habilidades {
+    justify-content: center;
+  }
   .habilidad-fila-1 {
     grid-template-columns: 50% 50%;
     grid-template-rows: 200px 200px;
   }
   .grid-fila {
-    width: 300px;
+    width: auto;
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-items: center;
   }
   .fila-2 {
     margin-top: 120px;
   }
   div.proyecto {
     width: 100%;
+    height: 24vh;
     margin-top: 40px;
   }
   .footer__derechos-de-autor {
