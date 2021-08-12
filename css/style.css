@@ -260,6 +260,9 @@ footer p {
     width: 100px;
     height: 30px;
   }
+  .hero {
+    height: 88vh;
+  }
   .grid-hero {
     display: grid;
     grid-template-columns: 100%;
