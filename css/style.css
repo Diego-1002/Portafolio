@@ -202,6 +202,19 @@ main div.main__contenedor-habilidades {
   border-radius: 23px;
   cursor: pointer;
 }
+.habilidad:hover {
+  filter: blur(2px);
+}
+.años-experiencia {
+  display: flex;
+}
+.años-experiencia div.barra-de-progreso {
+}
+.años-experiencia div.years-months {
+}
+.años-experiencia div.years-months p {
+  font-size: 20px;
+}
 /* Proyectos-Hechos */
 div.proyectos-realizado {
   width: 100%;
